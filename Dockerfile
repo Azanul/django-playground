@@ -6,4 +6,4 @@ COPY mysite mysite
 
 WORKDIR mysite
 
-CMD [ "python", "manage.py", "runserver", "0.0.0.0:80", "--no-reload" ]
+CMD [ "python", "manage.py", "runserver", "0.0.0.0:80", "--noreload" ]
